@@ -1,0 +1,49 @@
+.results-container {
+  padding: 0 3rem;
+}
+
+.results-container {
+  color: white;
+}
+
+.result-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+
+.result-item-image img {
+  width: 8rem;
+  cursor: pointer;
+}
+
+.result-image-error {
+  width: 8rem;
+  height: 100%;
+  background-color: white;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.result-detail {
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+.result-detail .movie-detail {
+  padding: 0;
+  margin-bottom: 3rem;
+  height: 400px;
+}
+
+.result-image-error img {
+  width: fit-content;
+}

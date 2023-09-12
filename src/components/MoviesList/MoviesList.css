@@ -1,0 +1,39 @@
+.movies-list-original {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.movies-list-original .origin-image {
+  flex: 1;
+  width: 6rem;
+}
+
+.movies-list-original .origin-image img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.movies-list h1 {
+  color: white;
+}
+
+.movies-list-other {
+  overflow-x: auto;
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.movies-list-other .origin-image img {
+  width: 16rem;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.origin-image img:hover {
+  transform: scale(1.1);
+}

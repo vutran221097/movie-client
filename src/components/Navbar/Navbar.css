@@ -1,0 +1,33 @@
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-top: -4rem;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0.8rem 2rem;
+  height: 2rem;
+}
+
+.navbar-home-page {
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.search-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.navbar.active {
+  background-color: black !important;
+  z-index: 1;
+}

@@ -1,0 +1,28 @@
+.movie-detail {
+  display: flex;
+  padding: 0 3rem;
+  gap: 2rem;
+}
+
+.movie-detail h1,
+.movie-detail p {
+  color: white;
+}
+
+.movie-detail-info,
+.movie-detail-trailer {
+  flex: 1;
+}
+
+.horizon-line {
+  border: 2px solid white;
+}
+
+.movie-detail-info p {
+  margin: 0;
+}
+
+.movie-detail .release-date,
+.movie-detail .overview {
+  margin-top: 2rem;
+}

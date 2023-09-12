@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  height: 40rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.banner-info {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: white;
+}
+
+.banner-info h1 {
+  font-size: 3.5rem;
+}
+
+.banner-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.banner-actions button {
+  background-color: #231d22;
+  color: white;
+  padding: 0.8rem 0;
+  border-radius: 5px;
+  border: none;
+  width: 6.5rem;
+  cursor: pointer;
+}
+
+.banner-overview {
+  width: 30%;
+}
